@@ -6,7 +6,7 @@ import 'primeicons/primeicons.css';
 
 function Square(props){
   return(
-      <Button label={props.valor}/>
+      <Button label={props.valor} onClick={props.onClick}/>
   );
 }
 export default Square;
